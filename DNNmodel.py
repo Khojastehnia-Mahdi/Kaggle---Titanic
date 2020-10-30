@@ -37,5 +37,5 @@ print('confusion matrix = \n', cm2)
 ac = accuracy_score(y_val_final, y_pred)
 print('accuracy score = ', ac)
 
-# predicting the test set
+# predicting for the test set
 predictions = model.predict_classes(X_test_final)
