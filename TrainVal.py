@@ -20,7 +20,7 @@ X_trainVal.head(5)
 # creating train and val set
 
 from sklearn.model_selection import train_test_split
-X_train, X_val, y_train_final, y_val_final = train_test_split(X_trainVal, y_trainVal, test_size = 0.003)
+X_train, X_val, y_train_final, y_val_final = train_test_split(X_trainVal, y_trainVal, test_size = 0.2)
 
 y_train_np = np.array(y_train_final)
 
